@@ -30,6 +30,7 @@
   font-weight: 500;
   font-size: 18px;
   padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav{
@@ -43,15 +44,14 @@ nav{
   grid-row: 1;
   grid-column: 1;
   display: flex;
+  font-size: 2vw;
 }
 
 #rental{
-  margin: auto;
-  text-align: left;
+  margin: 2vw;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
-  font-size: 2vw;
+  font-weight: bold;
   color: #C4C4C4;
 }
 
@@ -72,8 +72,8 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-top: 12vh;
-  padding-bottom: 12vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   grid-gap: 20px;
   font-family: Arvo;
 
