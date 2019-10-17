@@ -54,7 +54,7 @@ nav{
   display: grid;
   grid-template-rows: 20vw;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 10em;
+  padding: 8em;
   grid-gap: 20px;
 
 }
@@ -64,6 +64,24 @@ nav{
   grid-column: 1;
   object-fit: contain;
   border: 5px solid #C4C4C4;
+  border-radius: 5px;
+}
+
+#listing-area{
+  grid-row: 1;
+  grid-column: 2;
+  background: #00202F;
+  opacity: 0.8;
+  border-radius: 5px;
+  align-content: center;
+}
+
+#listing-title{
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #FFFDFD
 }
 
 img{
