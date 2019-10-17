@@ -52,9 +52,12 @@ nav{
 
 #content{
   display: grid;
-  grid-template-rows: 20vw;
+  grid-template-rows: 20vw 5vw;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 8em;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   grid-gap: 20px;
 
 }
@@ -73,15 +76,48 @@ nav{
   background: #00202F;
   opacity: 0.8;
   border-radius: 5px;
-  align-content: center;
+}
+
+#amenities-area{
+  grid-row: 1;
+  grid-column: 3;
+  background: #C4C4C4;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  color: #000000;
 }
 
 #listing-title{
+  text-align: center;
   font-family: Arvo;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  color: #FFFDFD
+  font-size: 2vw;
+  color: #FFFDFD;
+  margin: 1vw;
+}
+
+#amenity{
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 0.5vw;
+
+}
+
+#listing-text{
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #C4C4C4;
+  margin: 1vw;
+  text-align: left;
 }
 
 img{
