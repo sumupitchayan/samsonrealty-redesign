@@ -30,6 +30,7 @@
   font-weight: 500;
   font-size: 18px;
   padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav{
@@ -37,6 +38,21 @@ nav{
   display: grid;
   grid-template-rows: 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#back{
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  font-size: 2vw;
+}
+
+#rental{
+  margin: 0.8vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  color: #C4C4C4;
 }
 
 #page-container {
@@ -52,36 +68,94 @@ nav{
 
 #content{
   display: grid;
-  grid-template-rows: 20vw;
+  grid-template-rows: 5vw 20vw 5vw;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 8em;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   grid-gap: 20px;
+  font-family: Arvo;
 
 }
 
 #image-area{
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 1;
   object-fit: contain;
   border: 5px solid #C4C4C4;
   border-radius: 5px;
 }
 
+#apply{
+  grid-row: 3;
+  grid-column: 2;
+  margin: auto;
+}
+
+#price{
+  grid-row: 3;
+  grid-column: 3;
+  margin: 1vw;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #FFFDFD;
+}
+
 #listing-area{
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 2;
   background: #00202F;
   opacity: 0.8;
   border-radius: 5px;
-  align-content: center;
 }
 
+#amenities-area{
+  grid-row: 2;
+  grid-column: 3;
+  background: #C4C4C4;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  color: #000000;
+}
+
+
 #listing-title{
+  text-align: center;
   font-family: Arvo;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  color: #FFFDFD
+  font-size: 2vw;
+  color: #FFFDFD;
+  margin: 1vw;
+}
+
+#amenity{
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 0.5vw;
+
+}
+
+#listing-text{
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  color: #C4C4C4;
+  margin: 1vw;
+  text-align: left;
 }
 
 img{
@@ -106,4 +180,19 @@ footer {
 body{
   height: 100%;
   background-image: url("background.jpg");
+}
+
+button{
+  width: 8vw;
+  height: 4vh;
+  background: #C4C4C4;
+  border-radius: 5px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
