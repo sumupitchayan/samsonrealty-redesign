@@ -389,11 +389,10 @@ footer {
 
 }
 
-
 /*
 4k Screen
 */
-@media (min-height: 2000px) {
+@media (min-width: 3000px) {
 
 body{
   background-image: none;
